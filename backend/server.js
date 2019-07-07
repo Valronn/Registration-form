@@ -18,6 +18,9 @@ connection.once("open", () => {
   console.log("Connected to DB");
 });
 
+const usersRouter = require('./routes/newUser');
+app.use('/users', usersRouter);
+
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });

@@ -25,15 +25,12 @@ const userRegisterSchema = new Schema({
   password: {
     type: String,
     required: true,
-    unique: true,
     trim: true,
     minlength: 8
   },
 
   name: {
-    first: String,
-    last: String,
-    required: true
+    type:String
   },
 
   age: {
