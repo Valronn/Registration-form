@@ -1,5 +1,6 @@
 ##Available scripts
 
+In the projectory you can run:
 
 ###`npm start`
 
